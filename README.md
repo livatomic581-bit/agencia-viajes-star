@@ -1,6 +1,6 @@
 # Agencia Viajes STAR
 
-Proyecto académico de Programación Web II (IACC - Semana 8) para demostrar trabajo colaborativo con herramientas de GitHub.
+Proyecto PWII demostrar trabajo colaborativo con herramientas de GitHub.
 
 ## Objetivo del proyecto
 
