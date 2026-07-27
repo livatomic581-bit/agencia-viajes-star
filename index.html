@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia Viajes STAR</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Agencia Viajes STAR</h1>
+    <p class="subtitulo">Búsqueda interactiva de vuelos y paquetes turísticos</p>
+  </header>
+
+  <main>
+    <section id="introduccion">
+      <h2>Bienvenido</h2>
+      <p>
+        Este sitio permite revisar opciones de viaje de forma sencilla.
+        Puede buscar vuelos según origen, destino, fecha y cantidad de pasajeros,
+        además de conocer nuestros paquetes turísticos disponibles.
+      </p>
+    </section>
+
+    <section id="busqueda-vuelos">
+      <h2>Búsqueda de vuelos</h2>
+      <form id="formulario-vuelos">
+        <div class="campo">
+          <label for="origen">Origen</label>
+          <input type="text" id="origen" name="origen" placeholder="Ej: Santiago">
+        </div>
+
+        <div class="campo">
+          <label for="destino">Destino</label>
+          <input type="text" id="destino" name="destino" placeholder="Ej: Antofagasta">
+        </div>
+
+        <div class="campo">
+          <label for="fecha">Fecha de viaje</label>
+          <input type="date" id="fecha" name="fecha">
+        </div>
+
+        <div class="campo">
+          <label for="pasajeros">Número de pasajeros</label>
+          <input type="number" id="pasajeros" name="pasajeros" min="1" placeholder="Ej: 2">
+        </div>
+
+        <button type="submit" id="btn-buscar">Buscar vuelos</button>
+      </form>
+
+      <div id="resultado-busqueda" class="resultado"></div>
+    </section>
+
+    <section id="paquetes">
+      <h2>Paquetes turísticos</h2>
+      <div class="contenedor-tarjetas">
+        <article class="tarjeta">
+          <h3>Paquete Norte</h3>
+          <p>Recorra el desierto de Atacama, San Pedro y las playas del norte de Chile.</p>
+          <p class="precio">Desde $350.000 CLP</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Paquete Sur</h3>
+          <p>Descubra la Patagonia, lagos, volcanes y la naturaleza del sur chileno.</p>
+          <p class="precio">Desde $420.000 CLP</p>
+        </article>
+
+        <article class="tarjeta">
+          <h3>Paquete Costa</h3>
+          <p>Disfrute de Valparaíso, Viña del Mar y los balnearios de la costa central.</p>
+          <p class="precio">Desde $280.000 CLP</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Proyecto académico para trabajo colaborativo con GitHub - Programación Web II</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
