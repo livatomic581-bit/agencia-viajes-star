@@ -39,7 +39,7 @@ formulario.addEventListener("submit", function (evento) {
 
   // Resultado simulado de la búsqueda
   const mensaje =
-    "Búsqueda realizada: vuelos desde " +
+    "Resultado preliminar: vuelos desde " +
     origen +
     " hacia " +
     destino +
